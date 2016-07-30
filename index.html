@@ -1,146 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+    
+    
 	<title>Justin Baiko's Portfolio</title>
-	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-	<style>
-        
-		.header{
-			float: left;
-			background-color: #4aaaa5;
-			color: #ffffff;
-			font-family: 'Georgia', Times, Times New Roman, serif;
-			width: 250px;
-			position: relative;
-			text-align: center;
-			left: 100px;
-			overflow: auto;
-		}
-        
-		div.nav{
-			float: right;
-			background-color: #ffffff;
-			color: #cccccc;
-			font-family: 'Georgia', Times, Times New Roman, serif;
-			position: static;
-			text-align: center;
-			font-size: 15px;
-			width: 300px;
-			margin-top: 30px;
-			overflow: auto;
-		}
-        
-        .nav:hover{
-            background-color: #4aaaa5;
-            color: white;
-        }
-        
-		div.bg {
-			position: absolute;
-			margin-top: 74px;
-			left: 0px;
-			width: 100%;
-			height: auto;
-			background-image: url("/assets/images/restaurant_icons.png");
-    		border-top-style: groove; 
-    		-webkit-background-size: cover;
-    		-moz-background-size: cover;
-    		-o-background-size: cover;
-    		background-size: cover;
-		}
-        
-		.bg-section {
-			background-color: white;
-			border: groove;
-			width: 600px;
-			height: auto;
-			margin-top: 30px;
-            margin-left: 100px;
-            opacity: 0.6;
-            
-		}
-        
-        .dark-text {
-            margin-left: 20px;
-            font-size: 60px;
-            color: #4aaaa5;
-            opacity: 1;
-        }
-        
-        .fixed-line {
-            margin-left: 20px;
-            margin-right: 20px;
-            margin-top: 1px;
-            border: inset;
-            color: gainsboro;
-        }
-        
-        .penguin {
-            height: 150px;
-            width: 250px;
-            margin-left: 20px;
-            float: left;
-            border: groove;
-            margin-right: 20px;
-        }
-        
-        .aside {
-            background-color: white;
-            border: groove;
-            float: left;
-            opacity: 0.6;
-            width: 250px;
-            height: 170px;
-            margin-top: 33px;
-            margin-left: 75%;
-            
-        }
-        
-        .aside-title {
-            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-            font-size:25px;
-            text-align: center;
-            color: #4aaaa5;
-        }
-        
-        .aside-pic {
-            margin-left: 11px;
-            float:left;
-        }
-        
-        .pquote {
-			float: left;
-			width: 400px;
-			background: url(/assets/images/quote.png) top left no-repeat;
-            background-size: 270px 120px; 
-            background-position: 18px 40px;
-			color: #777777;
-			font-size: 26px;
-			line-height: 0.9;
-			font-style: italic;
-			padding: 30px;
-            margin-top: 50px;
-            
-		}
-        
-        
-		blockquote {
-			margin: 4px;
-		}
-        
-		.pquote p:first-letter {
-			font-size: 39px;
-			font-weight: bold;
-		}
-    
-	</style>
-    
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
-
+ 
 
 <body>
     
-    
+    <div>
     <!--Top Menu Bar -->
 	<section>
         
@@ -150,18 +20,18 @@
             </div>
 
             
-            <!-- Right part of top menu bar. Need to fix the span spacing -->
+            <!-- Navigation bar.-->
             <div class="nav">
                 <a href="index.html">
-                    <div style="display:inline-block">About</div>
+                    <div title="About" style="display:inline-block">About</div>
                 </a>
                 <span style="color:#f1f1f1">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
                 <a href="portfolio.html">
-                <div style="display:inline-block">Portfolio</div>
+                <div title="Portfolio" style="display:inline-block">Portfolio</div>
                 </a>
                 <span style="color:#f1f1f1">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
                 <a href="contact.html">
-                    <div style="display:inline-block">Contact</div>
+                    <div title="Contact" style="display:inline-block">Contact</div>
                 </a>
             </div>
         </header>
@@ -182,7 +52,9 @@
                 
                 <hr class="fixed-line">
                 
-                <img class="penguin" src="assets/images/penguin.jpg" alt="penguin">
+                <a href="assets/images/penguin.jpg">
+                    <img title="penguin at the beach" class="penguin" src="assets/images/penguin.jpg" alt="penguin">
+                </a>
                 
                     <article>
                         
@@ -218,18 +90,19 @@
                 <hr class="fixed-line">
                 
                 <a href="https://www.linkedin.com/in/justin-baiko-33a14a1b?trk=nav_responsive_tab_profile">
-                    <img class="aside-pic" src="assets/images/linkedin.png" alt="linkedin">
+                    <img title="linkedin" class="aside-pic" src="assets/images/linkedin.png" alt="linkedin">
                 </a>
                 <a href="https://www.github.com/yaboybakes">
-                    <img class="aside-pic" style="margin-right:8px" src="assets/images/github.png" alt="github">
+                    <img title="github" class="aside-pic" style="margin-right:8px" src="assets/images/github.png" alt="github">
                 </a>
                 <a href="https://www.twitter.com/higherconcious">
-                    <img style="margin-top: 7px; margin-left: 10px" class="aside-pic" src="assets/images/twitter.png" alt="twitter">
+                    <img title="twitter" style="margin-top: 7px; margin-left: 10px" class="aside-pic" src="assets/images/twitter.png" alt="twitter">
                 </a>
                 
                 
             </div>
     </section>
+    </div>
     
     
         
