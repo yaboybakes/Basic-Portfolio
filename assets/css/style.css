@@ -84,17 +84,6 @@
             margin-left: 760px;
             position: fixed;
         }
-        /*
-        .penguin:hover {
-            position:relative;
-            top:-25px;
-            left:-35px;
-            width:500px;
-            height:auto;
-            display:block;
-            z-index:999;
-        }
-        */
           
         .nav-text:link, .nav-text:visited {
             background-color: white;
@@ -158,4 +147,23 @@
             background-color: #4aaaa5;
             color: white;
             font-size: 20px;
+        }
+
+        .portfolio-image { 
+           position: relative; 
+           width: 250px; /* for IE 6 */
+           margin-left:20px;
+           float: left;
+        }
+
+        .portfolio-image h3 { 
+           position: absolute; 
+           top: 180px; 
+           left: 0; 
+           width: 250px;
+           height: 40px;
+           background-color: #4aaaa5;
+           text-align: center;
+           color:white;
+           font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         }
