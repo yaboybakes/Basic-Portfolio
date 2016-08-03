@@ -149,19 +149,20 @@
             font-size: 20px;
         }
 
-        .portfolio-image { 
+        .bg-section.portfolio-image { 
+           margin: 10px;
            position: relative; 
-           width: 250px; /* for IE 6 */
+           width: 200px; /* for IE 6 */
            margin-left:20px;
-           float: left;
+           height: 200px;
         }
 
-        .portfolio-image h3 { 
+        .portfolio-image.h3 { 
            position: absolute; 
-           top: 180px; 
+           top: 200px; 
            left: 0; 
            width: 250px;
-           height: 40px;
+           height: 400px;
            background-color: #4aaaa5;
            text-align: center;
            color:white;
