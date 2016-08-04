@@ -149,22 +149,52 @@
             font-size: 20px;
         }
 
-        .bg-section.portfolio-image { 
-           margin: 10px;
-           position: relative; 
-           width: 200px; /* for IE 6 */
-           margin-left:20px;
-           height: 200px;
+        .pictures{
+            float:left;
+            position:relative;
+            z-index:1;
         }
 
-        .portfolio-image.h3 { 
-           position: absolute; 
-           top: 200px; 
-           left: 0; 
-           width: 250px;
-           height: 400px;
-           background-color: #4aaaa5;
-           text-align: center;
-           color:white;
-           font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        .pictures-right{
+            float: right;
+            position:relative;
+            margin-right: 20px;
         }
+
+        .pictures-right img{
+            margin-left:10px;
+        }
+
+        .title-wrap{
+            width: 250px;
+            height: 50px;
+            position: absolute;
+            margin-left: 20px;
+            bottom: 15px;
+            z-index: 1;
+            background-color: #4aaaa5;
+        }
+
+        .title-wrap h1{
+            color:#ffffff;
+            margin: 12px 12px;
+            text-align: center;
+        }
+
+        .title-wrap-right{
+            width: 250px;
+            height: 50px;
+            position: absolute;
+            bottom: 15px;
+            z-index: 1;
+            margin-left:20px;
+            background-color: #4aaaa5;
+        }
+
+        .title-wrap-right h1{
+            color:#ffffff;
+            margin: 12px 12px;
+            text-align: center;
+        }
+        
+
