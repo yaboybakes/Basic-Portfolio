@@ -1,4 +1,4 @@
-.header{
+        .header{
 			float: left;
 			background-color: #4aaaa5;
 			color: #ffffff;
@@ -24,7 +24,7 @@
             margin-left: 730px;
 		}
         
-		div.bg {
+		.bg {
 			position: absolute;
 			margin-top: 57px;
 			left: 0px;
@@ -196,7 +196,7 @@
         
 
 
-.first {
+        .first {
             width: 250px;
             height: 50px;
             bottom: 9px;
@@ -207,18 +207,18 @@
             color:white;
             margin-top: -538px;
             position: relative;
-}
+        }
 
-    .second {
-                width: 250px;
-                height: 50px;
-                bottom: 9px;
-                z-index: 1;
-                background-color: #4aaaa5;
-                text-align:center;
-                line-height: 50px;
-                color:white;
-                margin-top: -266px;
-                position: relative;
-                float:left;
-    }
+        .second {
+            width: 250px;
+            height: 50px;
+            bottom: 9px;
+            z-index: 1;
+            background-color: #4aaaa5;
+            text-align:center;
+            line-height: 50px;
+            color:white;
+            margin-top: -266px;
+            position: relative;
+            float:left;
+        }
