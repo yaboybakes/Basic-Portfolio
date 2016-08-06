@@ -222,3 +222,11 @@
             position: relative;
             float:left;
         }
+
+        input {
+            width: 95%;
+        }
+
+        textarea {
+            width:95%;
+        }
